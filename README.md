@@ -8,4 +8,12 @@ Steps
 5. (IN CMD) --> uv run main.py or ( fastmcp run main.py --transport http --host 0.0.0.0 --port 8000)
 6. (IN CMD) check our mcpserver run or not --> uv run fastmcp dev inspector main.py --> or  uv run fastmcp dev main.py
 
+6. now create a github repo and push the  code 
+    - git init
+       - git add *
+       - git commit -m "first commit"
+       - git branch -M main
+       - git remote add origin https://github.com/shahil04/test-remote-mcp-server-1.git
+       - git push -u origin main
+7. NOw host this mcp server in cloud --> https://horizon.prefect.io/ 
 
